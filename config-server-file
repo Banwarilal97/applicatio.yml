@@ -1,1 +1,15 @@
 
+server:
+ port: 9191  
+           
+spring:
+   application:
+     name: Config-Server
+     
+       
+   cloud:
+     config:
+       server:
+         git:
+           url: https//github.com/Banwarilal97/Config-Server-file
+           clone-on-start: true
